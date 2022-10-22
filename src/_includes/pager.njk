@@ -1,0 +1,22 @@
+{% set previousPost = collections.post | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.post | getNextCollectionItem(page) %} 
+{% if previousPost or nextPost %}
+<nav class="flex">
+  <p class="w-50">
+    {% if previousPost %}
+      &larr; 
+      <a href="{{ previousPost.url }}">
+        {{ previousPost.data.title }}
+      </a>
+    {% endif %}
+  </p>
+  <p class="w-50 tr">
+    {% if nextPost %}
+      <a href="{{ nextPost.url }}">
+        {{ nextPost.data.title }}
+      </a>
+      &rarr;
+    {% endif %}
+  </p>
+</nav>
+{% endif %}

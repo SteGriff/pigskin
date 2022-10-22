@@ -37,14 +37,12 @@ h1,h2,h3, .all-pro {
 
 .js-tc:hover::after {
   width: 200px;
-  height: 60px;
   display: block;
   content : '';
   position: absolute;
   border-radius: 1rem;
   background: white;
   box-shadow: 5px 5px 11px #c1c1c1, -5px -5px 11px #ffffff;
-  
   bottom: 100%;
   right: 0;
   transform: translateX(50%);
