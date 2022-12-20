@@ -25,6 +25,18 @@ h1,h2,h3, .all-pro {
     font-family: AllProSans, sans-serif;
 }
 
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.2em 1em;
+}
+
+th {
+  border-bottom: 1px solid gray;
+}
+
 .neu {
   border-radius: 1rem;
   background: white;
@@ -51,9 +63,9 @@ h1,h2,h3, .all-pro {
 }
 
 .editor {
-  position: absolute;
-  bottom: 12px;
-  right: 12px;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
   opacity: 0.5;
 }
 
