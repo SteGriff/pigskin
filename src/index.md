@@ -26,3 +26,7 @@ Football. Need I say more?
 
  + [Team Profiles](/teams/)
  + [About TPC](/about/)
+ 
+<span class="editor">
+  <a href="https://glitch.com/edit/#!/pigskin">🐖</a>
+</span>

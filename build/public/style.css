@@ -50,6 +50,17 @@ h1,h2,h3, .all-pro {
   z-index: 1;
 }
 
+.editor {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  opacity: 0.5;
+}
+
+.editor a {
+  text-decoration: none;
+}
+
 .SKY{color: #003594; font-weight: bold; }
 .ESQ{color: #75aee0; font-weight: bold; }
 .BRR{color: #01461a; font-weight: bold; }
