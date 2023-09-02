@@ -6,8 +6,8 @@ title: Team Profiles
 
 {%- for profile in siteData.activeProfiles -%}
 <div class="neu ph3 pv2 mv3">
-  <h2 class="flex justify-between ba">
-    <span>{{profile.Code !== profile.TeamName ? profile.Code : ""}}</span>
+  <h2 class="flex justify-between">
+    <span>{{profile.Code}}</span>
     <span>{{profile.TeamName}}</span>
     <span><small class="gray">{{profile.RealName}}</small></span>
   </h2>
