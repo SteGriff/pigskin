@@ -195,6 +195,7 @@ const teamProfiles = [
     FanSeason: "8th season ",
     Fact: "Story behind name: Always try to come up with a pun related name including players on my squad. The backstory involves me sitting on the toilet late and night thinking the name would be funny. ",
     Other: "",
+    Seasons: [2023],
     Code: "WIL",
   },
   {
@@ -208,13 +209,20 @@ const teamProfiles = [
     FanSeason: "At least 10, probably closer to 15",
     Fact: "Owned by an oil state and everyone hates them",
     Other: "",
+    Seasons: [2023],
     Code: "USA",
   },
 ];
+const season = 2023;
+const activeProfiles = teamProfiles
+  .filter(x => x.Seasons.some(s => s === season))
+  .toSorted((a, b) => a.Rank - b.Rank); // values.toSorted((a, b) => a - b);
 
 module.exports = {
   name: "The Pigskin Chronicle",
-  season: 2023,
+  season,
+  activeProfiles,
+  alumniProfiles: teamProfiles,
   profiles: teamProfiles,
   infoBoxes: teamProfiles.map((p) => {
     return {
