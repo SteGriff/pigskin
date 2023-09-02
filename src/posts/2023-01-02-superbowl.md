@@ -19,7 +19,7 @@ Congrats again to our 2022/23 champs!
 
 ## Consolation
 
-Overcoming last week's humilation, the Red Rifles came back with aplomb and gutted TBC by a whopping 150 to 65.
+Overcoming last week's humilation, the Red Rifles came back with aplomb and gutted TBC by a whopping 150 to 65, to earn 3rd place.
 
 ## Final Standings 🏅
 
@@ -32,5 +32,18 @@ Overcoming last week's humilation, the Red Rifles came back with aplomb and gutt
    
 Also ran:
 
- + 
+ + 4th - TBC
+ + 5th - Southport Skylarks
+ + 6th - The Cheetahs
+ + 7th - Esquel Collies
+ + 8th - Country Road Take Mahomes
+ + 9th - The Brady Bunch
+ + 10th - the category is 'country love'
+ + 11th - Mayfield Bakery
+ + 12th - Naperville Bearcats
+ + 13th - Burrow row row your boat
+ + 14th - Packers FC
 
+## Thanks for playing
+
+See you next year!
