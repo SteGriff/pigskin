@@ -4,11 +4,13 @@ pageTitle: 🏈🐖 Teams
 title: Team Profiles
 ---
 
-Here come the teams and managers
-
-{%- for profile in siteData.profiles | sort(attribute='Rank') -%}
+{%- for profile in siteData.activeProfiles -%}
 <div class="neu ph3 pv2 mv3">
-  <h2>{{profile.TeamName}} &ndash; <small class="gray">{{profile.RealName}}</small></h2>
+  <h2 class="flex justify-between ba">
+    <span>{{profile.Code !== profile.TeamName ? profile.Code : ""}}</span>
+    <span>{{profile.TeamName}}</span>
+    <span><small class="gray">{{profile.RealName}}</small></span>
+  </h2>
   <p class="gray i">
     {{profile.Fact}}
   </p>

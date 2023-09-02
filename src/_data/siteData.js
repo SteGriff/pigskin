@@ -196,7 +196,7 @@ const teamProfiles = [
     Fact: "Story behind name: Always try to come up with a pun related name including players on my squad. The backstory involves me sitting on the toilet late and night thinking the name would be funny. ",
     Other: "",
     Seasons: [2023],
-    Code: "WIL",
+    Code: "CTW",
   },
   {
     TeamName: "Resident American",
@@ -213,10 +213,17 @@ const teamProfiles = [
     Code: "USA",
   },
 ];
+
 const season = 2023;
 const activeProfiles = teamProfiles
-  .filter(x => x.Seasons.some(s => s === season))
-  .toSorted((a, b) => a.Rank - b.Rank); // values.toSorted((a, b) => a - b);
+  .filter(x => x.Seasons.some(s => s === season));
+
+activeProfiles.sort((a, b) => a.Rank - b.Rank);
+
+const alumniProfiles = teamProfiles
+  .filter(x => !x.Seasons.some(s => s === season));
+
+alumniProfiles.sort((a, b) => a.Rank - b.Rank);
 
 module.exports = {
   name: "The Pigskin Chronicle",
