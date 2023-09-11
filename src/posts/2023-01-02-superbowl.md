@@ -1,5 +1,5 @@
 ---
-title: Fantasy Superbowl 2023
+title: Fantasy Superbowl 2022/23
 ---
 
 *Ed note - backfilled this post at start of 2023/24 season*

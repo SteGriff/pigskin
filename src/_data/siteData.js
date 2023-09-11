@@ -198,7 +198,7 @@ const teamProfiles = [
     Other: "",
     Code: "CTW",
     Seasons: [2023],
-    Rank: null,
+    Rank: 100,
   },
   {
     TeamName: "Resident American",
@@ -213,7 +213,7 @@ const teamProfiles = [
     Other: "",
     Code: "USA",
     Seasons: [2023],
-    Rank: null,
+    Rank: 101,
   },
 ];
 
@@ -234,7 +234,7 @@ const activeProfiles = teamProfiles.filter((x) =>
 activeProfiles.sort((a, b) => a.Rank - b.Rank);
 
 const alumniProfiles = teamProfiles.filter(
-  (x) => !x.Seasons.some((s) => s === season)
+  (x) => x.Seasons.every((s) => s !== season)
 );
 
 alumniProfiles.sort((a, b) => a.Rank - b.Rank);
@@ -243,7 +243,7 @@ module.exports = {
   name: "The Pigskin Chronicle",
   season,
   activeProfiles,
-  alumniProfiles: teamProfiles,
+  alumniProfiles,
   profiles: teamProfiles,
   infoBoxes: teamProfiles.map((p) => {
     return {
