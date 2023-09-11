@@ -16,7 +16,7 @@ title: Team Profiles
   </p>
   <table class="f6 collapse">
     <tr>
-      <td class="ph2 br b--gray"><b>Fan for</b> {{profile.FanFor}}</td>
+      <td class="ph2 br b--gray"><b>Fan since</b> {{profile.NflYear1}}</td>
       <td class="ph2 br b--gray">{{profile.FanSeason}} of NFL Fantasy</td>
       <td class="ph2"><b>Supports</b> {{profile.Supports}}</td>
     </tr>
