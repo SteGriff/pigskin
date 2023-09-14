@@ -79,14 +79,14 @@ th {
 
 .SKY{color: #003594; font-weight: bold; }
 .ESQ{color: #75aee0; font-weight: bold; }
-.BRR{color: #01461a; font-weight: bold; }
-.PFC{color: #97233f; font-weight: bold; }
+.BRR, .OLC{color: #01461a; font-weight: bold; }
+.PFC, .USA{color: #97233f; font-weight: bold; }
 .TBB{color: #dc5313; font-weight: bold; }
 .NAP{color: #0076b6; font-weight: bold; }
 .MFB{color: #c60c30; font-weight: bold; }
 .TBC{color: #f36f21; font-weight: bold; }
 .CHE{color: #008e97; font-weight: bold; }
-.CRT{color: #002244; font-weight: bold; }
+.CRT, .RDC{color: #002244; font-weight: bold; }
 .CCL{color: #fb4f14; font-weight: bold; }
 .LCD{color: #69be28; font-weight: bold; }
 .BGL{color: #0b162a; font-weight: bold; }
