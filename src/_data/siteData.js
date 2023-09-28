@@ -128,7 +128,7 @@ const teamProfiles = [
     Former: { Code: "CHE", Name: "The Cheetahs" },
   },
   {
-    TeamName: "Rubba Dub Chubb",
+    TeamName: "The Pollard Express",
     RealName: "Andrew Trebble",
     Connection: "Friend of Trebz",
     Supports: "Seattle Seahawks ",
@@ -137,7 +137,7 @@ const teamProfiles = [
     Fact: "The Mahomey's as they are affectionately known, are based in the blossoming community of Liverpool... Huyton! Although Liverpool is strongly associated with Soccer, the good folks of Huyton have ventured further a field as they have drawn weary of the Klopp / Lampard style of play - gravitating to the free wheeling style of the Mahomey's. More recently small section of the fan base have become disgruntled by odd decisions made by the team owner 'Andrew Trebble', specifically not drafting a QB in the first round of the draft (like other more popular owners) and ending up with seemingly no QB options for the upcoming season, this has led to the lesser known 'Trebble Out' movement! ",
     Other:
       "We offer fantastic benefits / dividends for all stakeholders for those looking to invest! ",
-    Code: "RDC",
+    Code: "TPE",
     Seasons: [2022, 2023],
     Rank: 8,
     Former: { Code: "CRT", Name: "Country Road Take Mahomes" },
