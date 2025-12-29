@@ -1,6 +1,6 @@
 {
-  "name": "eleventy-on-glitch",
-  "description": "A starter template for 11ty (eleventy) static site generator on glitch.com",
+  "name": "pigskin-chronicle",
+  "description": "A fantasy football blog on 11ty",
   "tags": [
     "eleventy",
     "11ty",
@@ -14,14 +14,8 @@
     "build": "NODE_ENV=production eleventy",
     "start": "eleventy --serve"
   },
-  "engines": {
-    "node": "16"
-  },
-  "glitch": {
-    "projectType": "generated_static"
-  },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^3.1.2"
   },
   "license": "MIT"
 }
